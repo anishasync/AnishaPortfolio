@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anisha's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 49);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 64px;
+            background-color: rgb(1, 4, 100);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.09rem;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.4px;
+            margin: 20px 84px;
+        }
+
+        .left {
+            font-size: 1.4rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+
+        .leftSection {
+
+            font-size: 2.2rem;
+
+            width: 100%;
+
+        }
+
+        .leftSection .buttons{
+            padding: 30px 0;
+        }
+
+        .leftSection .btn {
+
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 18px;
+            cursor: pointer;
+
+        }
+
+        .rightSection img {
+            width: 100%;
+
+
+        }
+
+
+
+        .purple {
+
+
+            color: rgb(170, 107, 228);
+            display: inline;
+        }
+
+        .text-gray {
+            color: gray !important;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+            font-size: 32px;
+            font-weight: bold;
+            background: linear-gradient(90deg, rgb(170, 107, 228), rgb(255, 192, 220));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+
+            letter-spacing: 2px;
+
+
+
+        }
+
+
+        #element:hover {
+
+            color: #00ffff;
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 28px;
+            font-weight: 350;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 78vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 105px;
+        }
+
+        .image-top {
+            width: 100px;
+            position: relative;
+            top: -87px;
+            left: -19px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 5px;
+            width: 100px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 5px;
+            color: gray;
+            width: 170px;
+            font-size: 16px;
+
+        }
+
+        footer {
+            background-color: #0e0e1a;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Anisha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <div>
+                    Hi, My name is <span class="purple">Anisha</span>
+                </div>
+
+                <div>
+                    and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="Apic.png" alt="">
+
+            </div>
+
+        </section>
+
+
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What defines me</span>
+            <h1>Who I Am</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="AP.png" alt="">
+                    <div class="vertical-title">
+                        Beginner Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Learning web development one step at a time
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="business1.png" alt="">
+                    <div class="vertical-title">
+                        Future Entrepreneur
+                    </div>
+                    <div class="vertical-desc">
+                        Interested in business and innovation
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="thinker.png" alt="">
+                    <div class="vertical-title">
+                        Creative Thinker
+                    </div>
+                    <div class="vertical-desc">
+                        I enjoy turning ideas into reality
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="rocket.png" alt="">
+                    <div class="vertical-title">
+                        Dream Chaser
+                    </div>
+                    <div class="vertical-desc">
+                        Always learning something new
+                    </div>
+                </div>
+
+
+
+                <div class="vertical">
+                    <img class="image-top" src="book.png" alt="">
+                    <div class="vertical-title">
+                        Science Student
+                    </div>
+                    <div class="vertical-desc">
+                        Studying Biology and Biotechnology
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Anisha's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+
+                    <li>Contact </li>
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+
+                    <li>Contact </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.anisha'sportfolio.com | All rights reserved
+
+        </div>
+
+
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer', 'Graphic Designer', 'Freelancer', 'Sketch Artist', 'Freelancer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>
